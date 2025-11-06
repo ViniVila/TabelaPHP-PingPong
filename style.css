@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* fundo branco claro */
+    color: #111; /* texto escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Títulos */
+h3 {
+    color: #c40000; /* vermelho escuro estiloso */
+    margin-top: 30px;
+}
+
+/* Formulário */
+form {
+    background: white; /* agora claro */
+    padding: 15px;
+    border: 2px solid #c40000;
+    width: 320px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+input[type="text"], 
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    border: 1px solid #c40000;
+    border-radius: 6px;
+    background: #fff;
+    color: #111;
+    font-size: 16px;
+}
+
+/* Botão de Cadastrar */
+input[type="submit"] {
+    background-color: #c40000; 
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #900000;
+}
+
+/* Tabela */
+table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    background: white;
+    width: 550px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+table th, table td {
+    border: 1px solid #c40000;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+table th {
+    background: #c40000;
+    color: white;
+    font-weight: bold;
+}
+
+/* Link Excluir */
+a {
+    color: #c40000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #900000;
+}
